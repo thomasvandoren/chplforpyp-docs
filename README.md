@@ -2,7 +2,7 @@
 
 Repository backing: https://chapel-for-python-programmers.readthedocs.org
 
-[![Build Status](https://travis-ci.org/safl/chplforpyp-docs.svg)](https://travis-ci.org/safl/chplforpyp-docs)
+[![Build Status](https://travis-ci.org/chapel-lang/chplforpyp-docs.svg)](https://travis-ci.org/chapel-lang/chplforpyp-docs)
 
 ### What is this repository for? ###
 
