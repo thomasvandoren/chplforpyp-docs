@@ -1,4 +1,4 @@
-coord = (47.606165, -122.332233);   # Assignment
+coord = ('47.606165', '-122.332233');   # Assignment
 print "coord =", coord
                                     ## Tuple item access
                                     #  - Indexing

@@ -5,7 +5,7 @@
 Each module should have its own test case.
 """
 
-from __future__ import print_function, unicode_literals
+from __future__ import print_function
 
 import os.path
 import shlex
@@ -473,7 +473,7 @@ Result of 9.0 / 4.0 = 2.25
     def test_modules_main(self):
         self.assertEqual('', self.runpy('modules_main.py'))
         import modules_main
-        self.assertIsNone(modules_main.main())
+        self.assertEqual(None, modules_main.main())
 
     def test_numpy_random(self):
         self.assertEqual('', self.runpy('numpy_random.py'))
@@ -521,7 +521,7 @@ Result of 9.0 / 4.0 = 2.25
 
     def test_tuples(self):
         self.assertEqual(
-            """coord = (47.606165, -122.332233)
+            """coord = ('47.606165', '-122.332233')
 Latitude = 47.606165 , Longitude = -122.332233
 Latitude = 47.606165 , Longitude = -122.332233
 """,
